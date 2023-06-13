@@ -18,10 +18,10 @@
         display: flex;
         flex-flow: nowrap row;
         justify-content: space-around;
-    }
-
-    nav ul li a {
-        font-size: larger;
+        
+        li a {
+            font-size: larger;
+        }
     }
 
     main {
@@ -32,7 +32,7 @@
     }
 
     footer {
-        background-color: #215C5B;
+        background-color: $color_footer_principal;
         display: flex;
         flex-flow: column wrap;
         align-items: center;
@@ -40,13 +40,13 @@
     }
 
     .img_us {
-        width: 25vw;
-        height: 25vh;
+        width: 40%;
+        height: auto;
     }
 
     .img_job{
-        width: 500px;
-        height: 300px;
+        width: 40%;
+        height: auto;
     }
 
     .pack-servicios {
@@ -85,9 +85,9 @@
     }
 
     main {
-        background-color: #51E1DF;
+        background-color: $color_main_principal;
         display: flex;
-        flex-flow: column nowrap;
+        flex-flow: column wrap;
         align-items: center;
         justify-content: space-between;
         padding: 10px;
@@ -98,11 +98,11 @@
     }
 
     nav ul li a {
-        font-size: xx-large;
+        font-size: larger;
     }
 
     footer {
-        background-color: #215C5B;
+        background-color: $color_footer_principal;
         display: flex;
         flex-flow: row wrap;
         align-items: center;
@@ -110,8 +110,12 @@
     }
 
     .img_us {
-        width: calc(20vw - 1vw);
-        height: calc(20vh - 1vh);
+        height: 25vw;
+    }
+
+    .img_job{
+        height: 300px;
+        width: 500px;
     }
 
     .pack-servicios {

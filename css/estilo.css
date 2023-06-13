@@ -80,12 +80,12 @@ footer div ul li {
     justify-content: space-around;
   }
   .img_us {
-    width: 25vw;
-    height: 25vh;
+    width: 40%;
+    height: auto;
   }
   .img_job {
-    width: 500px;
-    height: 300px;
+    width: 40%;
+    height: auto;
   }
   .pack-servicios {
     display: flex;
@@ -116,7 +116,7 @@ footer div ul li {
   main {
     background-color: #51E1DF;
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
     align-items: center;
     justify-content: space-between;
     padding: 10px;
@@ -125,7 +125,7 @@ footer div ul li {
     margin: 10px;
   }
   nav ul li a {
-    font-size: xx-large;
+    font-size: larger;
   }
   footer {
     background-color: #215C5B;
@@ -135,8 +135,11 @@ footer div ul li {
     justify-content: space-between;
   }
   .img_us {
-    width: 19vw;
-    height: 19vh;
+    height: 25vw;
+  }
+  .img_job {
+    height: 300px;
+    width: 500px;
   }
   .pack-servicios {
     display: flex;
