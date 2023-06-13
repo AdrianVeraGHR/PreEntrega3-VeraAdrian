@@ -1,0 +1,185 @@
+header {
+  background-color: white;
+  grid-area: header;
+  display: flex;
+  flex-flow: nowrap row;
+  align-items: center;
+}
+header nav {
+  grid-area: nav;
+}
+
+main {
+  background-color: #51E1DF;
+  grid-area: main;
+}
+main div {
+  display: flex;
+  flex-flow: row nowrap;
+}
+main form {
+  width: 80%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+main form input {
+  margin: 10px;
+  height: 30px;
+  text-align: start;
+}
+main form button {
+  height: 40px;
+  margin: 10px;
+}
+main form .cuerpo-mensaje {
+  height: 300px;
+}
+
+footer {
+  grid-area: footer;
+}
+footer div a {
+  margin: 10px;
+}
+footer div ul {
+  margin: 5px;
+  list-style: none;
+}
+footer div ul li {
+  display: inline-block;
+}
+
+@media (min-width: 380px) and (max-width: 1023px) {
+  * {
+    padding: 10px;
+  }
+  .contenedor {
+    display: grid;
+    grid-template-areas: "header" "nav" "main" "footer";
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: space-around;
+  }
+  nav ul li a {
+    font-size: larger;
+  }
+  main {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    padding: 10px;
+  }
+  footer {
+    background-color: #215C5B;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .img_us {
+    width: 25vw;
+    height: 25vh;
+  }
+  .img_job {
+    width: 500px;
+    height: 300px;
+  }
+  .pack-servicios {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .job_container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 10px;
+  }
+}
+@media (min-width: 1024px) {
+  * {
+    padding: 0px;
+  }
+  .contenedor {
+    display: grid;
+    grid-template-areas: "header nav" "main main" "footer footer";
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: right space-between;
+  }
+  main {
+    background-color: #51E1DF;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  nav ul li {
+    margin: 10px;
+  }
+  nav ul li a {
+    font-size: xx-large;
+  }
+  footer {
+    background-color: #215C5B;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .img_us {
+    width: 19vw;
+    height: 19vh;
+  }
+  .pack-servicios {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+  }
+  .job_container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    padding: 10px;
+  }
+}
+h1 {
+  margin: 10px;
+  font-family: tipo1;
+  font-size: xx-large;
+}
+
+p {
+  font-family: tipo2;
+  text-align: justify;
+  margin: 10px;
+}
+
+h2 {
+  margin: 10px;
+  text-align: center;
+  font-family: tipo1;
+  font-size: xx-large;
+}
+
+@font-face {
+  font-family: tipo1;
+  src: url("../fonts/van helsing.ttf");
+}
+@font-face {
+  font-family: tipo2;
+  src: url("../fonts/strange dreams italic.ttf");
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*# sourceMappingURL=estilo.css.map */

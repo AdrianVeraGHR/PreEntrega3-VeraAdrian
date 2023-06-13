@@ -1,0 +1,16 @@
+footer {
+    grid-area: footer;
+
+    div a{
+        margin: 10px;
+    }
+
+    div ul {
+        margin: 5px;
+        list-style: none;
+    }
+
+    div ul li {
+        display: inline-block;
+    }
+}

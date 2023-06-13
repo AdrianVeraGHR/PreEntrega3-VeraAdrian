@@ -1,0 +1,28 @@
+h1 {
+    margin: 10px;
+    font-family: tipo1;
+    font-size: xx-large;
+}
+
+p {
+    font-family: tipo2;
+    text-align: justify;
+    margin: 10px;
+}
+
+h2 {
+    margin: 10px;
+    text-align: center;
+    font-family: tipo1;
+    font-size: xx-large;
+}
+
+@font-face {
+    font-family: tipo1;
+    src: url("../fonts/van\ helsing.ttf")
+}
+
+@font-face {
+    font-family: tipo2;
+    src: url("../fonts/strange\ dreams\ italic.ttf")
+}

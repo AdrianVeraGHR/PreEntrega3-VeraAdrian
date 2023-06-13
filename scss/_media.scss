@@ -1,0 +1,129 @@
+@media (min-width: 380px) and (max-width: 1023px){
+    * {
+        padding: 10px;
+    }
+
+    .contenedor {
+        display: grid;
+        grid-template-areas:
+            "header"
+            "nav"
+            "main"
+            "footer"
+        ;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        flex-flow: nowrap row;
+        justify-content: space-around;
+    }
+
+    nav ul li a {
+        font-size: larger;
+    }
+
+    main {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    footer {
+        background-color: #215C5B;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .img_us {
+        width: 25vw;
+        height: 25vh;
+    }
+
+    .img_job{
+        width: 500px;
+        height: 300px;
+    }
+
+    .pack-servicios {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    .job_container{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        padding: 10px;
+    }
+}
+
+@media (min-width: 1024px) {
+    * {
+        padding: 0px;
+    }
+
+    .contenedor {
+        display: grid;
+        grid-template-areas:
+            "header nav"
+            "main main"
+            "footer footer"
+        ;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        flex-flow: nowrap row;
+        justify-content: right space-between;
+    }
+
+    main {
+        background-color: #51E1DF;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    nav ul li {
+        margin: 10px;
+    }
+
+    nav ul li a {
+        font-size: xx-large;
+    }
+
+    footer {
+        background-color: #215C5B;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .img_us {
+        width: calc(20vw - 1vw);
+        height: calc(20vh - 1vh);
+    }
+
+    .pack-servicios {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+    }
+
+    .job_container{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        padding: 10px;
+    }
+}

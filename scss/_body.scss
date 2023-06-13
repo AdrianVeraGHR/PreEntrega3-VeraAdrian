@@ -1,0 +1,30 @@
+main {
+    background-color: #51E1DF;
+    grid-area: main;
+
+    div {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+    form {
+        width: 80%;
+        display: flex;
+        flex-flow: column nowrap;
+        input {
+            margin: 10px;
+            height: 30px;
+            text-align: start;
+        }
+        button {
+            height: 40px;
+            margin: 10px;
+        }
+        .cuerpo-mensaje {
+            height: 300px;
+        }
+    }
+
+
+}
+
